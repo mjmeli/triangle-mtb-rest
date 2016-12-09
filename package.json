@@ -1,0 +1,18 @@
+{
+  "name": "TriangleMTB",
+  "version": "1.0.0",
+  "description": "Provides a modern UI and REST endpoint for TriangleMTB",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.2",
+    "winston": "^2.0.0",
+    "express-winston": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mjmeli/triangle-mtb-rest.git"
+  },
+  "license": "MIT"
+}
