@@ -12,3 +12,4 @@ Running: Use the command `node server.js`
 * Authentication to perform any changes
 * Tests
 * Travis integration
+* Move routes into their own folder/file
