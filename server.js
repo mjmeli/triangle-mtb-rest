@@ -61,7 +61,7 @@ router.route('/trail-status')
     });
 
 // /trail-status/:trail_id endpoint
-router.route('/trail-status')
+router.route('/trail-status/:status_id')
     // GET specific
     .get(function(req, res) {
         TrailStatus.findById(req.params.trail_id, function(err, status) {
